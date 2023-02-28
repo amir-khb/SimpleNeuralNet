@@ -10,7 +10,9 @@ public class Main {
 
 		for (int i = 0; i < 50000; i++) {
 			nn.train(x1, x2, o1);
-			if(i==2500){
+
+			//Remove if statement after testing
+			if (i == 2500) {
 				System.out.println("test");
 			}
 

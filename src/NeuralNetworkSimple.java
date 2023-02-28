@@ -48,6 +48,7 @@ public class NeuralNetworkSimple {
 		hidden2 = sigmoid(hidden2);
 
 		//PREDICT THE OUTPUT AND CALCULATE ERROR
+
 		double predictedOutput = (hidden1 * h1o1) + h1o1b + (hidden2 * h2o1) + h2o1b;
 		double error = o1 - predictedOutput;
 
