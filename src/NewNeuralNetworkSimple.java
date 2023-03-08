@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class NeuralNetworkSimple {
+ class NeuralNetworkSimple {
 
     // Weights of input-output and hidden layer
     private double[][] weights;
